@@ -42,14 +42,6 @@ El proyecto está diseñado para mostrar habilidades en **JavaScript, manipulaci
 
 ---
 
-## Captura
-
-![Captura de ejemplo](ruta/a/tu/captura.png)
-
-> Ejemplo de la interfaz con cantidad, resultado y gráfico.
-
----
-
 ## Objetivo del proyecto
 
 * Demostrar **manejo del DOM y eventos** en JavaScript.

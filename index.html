@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Divisas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Conversor de Divisas 💱</h1>
+    
+    <div class="converter">
+        <input type="number" id="amount" placeholder="Cantidad" />
+        <select id="from-currency"></select>
+        <select id="to-currency"></select>
+        <button id="convert-btn">Convertir</button>
+    </div>
+    
+    <h2>Resultado:</h2>
+    <p id="result">---</p>
+    
+    <canvas id="chart" width="400" height="200"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
